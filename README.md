@@ -56,6 +56,6 @@ ResNet architectures make extensive use of residual connections, which are not p
 ResNet models also tend to be much deeper and are designed to solve problems of vanishing gradients in very deep networks.
 
 ### Characteristics of the Model
-**Simplicity and Efficiency:** This model is simpler and likely more computationally efficient due to fewer layers and parameters. This makes it suitable for datasets like MNIST, which do not require very deep architectures due to the lower complexity of the data.
-**Custom Kernel Sizes:** The use of different kernel sizes (5x5, 3x3, and 1x1) in successive layers without following a fixed pattern is more indicative of a custom model tailored to the specifics of the task rather than following a standard architecture pattern.
-**Adaptability:** This architecture is likely designed to quickly learn spatial hierarchies with fewer parameters and can be easily modified or extended for similar scale problems.
++ **Simplicity and Efficiency:** This model is simpler and likely more computationally efficient due to fewer layers and parameters. This makes it suitable for datasets like MNIST, which do not require very deep architectures due to the lower complexity of the data.
++ **Custom Kernel Sizes:** The use of different kernel sizes (5x5, 3x3, and 1x1) in successive layers without following a fixed pattern is more indicative of a custom model tailored to the specifics of the task rather than following a standard architecture pattern.
++ **Adaptability:** This architecture is likely designed to quickly learn spatial hierarchies with fewer parameters and can be easily modified or extended for similar scale problems.
