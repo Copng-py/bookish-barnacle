@@ -1,5 +1,6 @@
 ## MNIST Image Classification using CNN
 [![Dataset](https://img.shields.io/badge/Dataset-MNIST-blue)](https://paperswithcode.com/dataset/mnist)
+[![Model](https://img.shields.io/badge/Model-Trained-yellow)](https://github.com/Copng-py/bookish-barnacle/blob/main/model.pth)
 
 This repository contains a PyTorch implementation of a Convolutional Neural Network (CNN) model for classifying MNIST handwritten digits.
 <p align="center">
