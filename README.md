@@ -1,9 +1,11 @@
 ## MNIST Image Classification using CNN
 This repository contains a PyTorch implementation of a Convolutional Neural Network (CNN) model for classifying MNIST handwritten digits.
+<p align="center">
+  <img src="https://github.com/Copng-py/bookish-barnacle/assets/146678457/c0fafdb2-53d4-442a-b65d-9eaaab76a7fb" width="500" height="500">
+</p>
 
 ### Model Architecture
 The CNN model used in this project consists of the following layers:
-
 - **Convolutional Layer 1**: 16 filters, 5x5 kernel size, ReLU activation
 - **Max Pooling Layer 1**: 2x2 kernel size
 - **Convolutional Layer 2**: 32 filters, 3x3 kernel size, ReLU activation
@@ -11,6 +13,8 @@ The CNN model used in this project consists of the following layers:
 - **Convolutional Layer 3**: 16 filters, 1x1 kernel size, ReLU activation
 - **Fully Connected Layer 1**: 64 units, ReLU activation
 - **Fully Connected Layer 2 (Output)**: 10 units (corresponding to 10 digit classes)
+
+
 
 ### Data Processing
 The MNIST dataset is used for this project. The data is preprocessed as follows:
