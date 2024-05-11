@@ -35,4 +35,5 @@ The train_model() function is responsible for training the CNN model. It include
 ### Learning Rate and Model Performance
 - **Learning Rate:** The initial learning rate is set to 0.001, and the MultiStepLR scheduler is used to reduce the learning rate during training.
 - **Model Performance:** The final test accuracy achieved by the model is 99.17%.
+![image](https://github.com/Copng-py/bookish-barnacle/assets/146678457/4aa51d11-d398-40c3-bc15-5a8d1be0bae9)
 <img width="988" alt="Screenshot 2024-05-11 at 2 46 14 PM" src="https://github.com/Copng-py/bookish-barnacle/assets/146678457/4b6e3265-afd5-44a5-bbd5-115eb20477a4">
